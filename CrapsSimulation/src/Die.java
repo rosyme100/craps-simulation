@@ -36,7 +36,7 @@ public class Die
 	@Override
 	public String toString() // this OVERRIDES the default Object.toString()
 	{
-		return "A Die object with roll " + this.getLastRoll();
+		return "A Die object with roll " + this.getLastRoll() + " " + super.toString();
 
 		// add the following to the end of the above line:
 		// + " " + super.toString()

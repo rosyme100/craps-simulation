@@ -18,7 +18,7 @@ public class CrookedDie2 extends Die // subclassing
 
 	public String toString()
 	{
-		return "A CrookedDie2 rolling 1,2,3,4,5,6 in sequence, and... ";
+		return "A CrookedDie2 rolling 1,2,3,4,5,6 in sequence, and... " + super.toString();
 	}
 
 }
